@@ -37,8 +37,9 @@ p {
 
 /* Links */
 a {
-  color: #a0452c;
+  color: hsl(17, 49%, 43%);
   word-wrap: break-word;
+  font-weight: 700;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -78,7 +79,7 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: hsl(17, 49%, 43%);
+  background: hsl(17, 49%, 53%);
   /*background: url(../images/header-bg.jpg) no-repeat center top;*/
   padding-top:140px;
   text-align:center;
@@ -110,30 +111,35 @@ a:after {
 }
 
 .header h3 a {
-  color: #fff;
+  color: hsl(83, 18%, 63%);
 }
 
 /* About Wrap */
 .about {
-  background: hsl(83, 18%, 65%);
+  background: hsl(83, 18%, 63%);
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
 } 
-
+  
 .about h5, p {
   color: white;
 }
 
+.about a {
+  color: hsl(17, 49%, 43%);
+}
+
 .about i {
-  color: white;
+  color: hsl(17, 49%, 43%);
   font-size: 20px;
   padding-right: 8px;
   vertical-align: middle;
+  text-indent: 3em;
 }
 
 .footer {
-  background: #2f2f2f;
+  background: hsl(83, 18%, 65%);
   padding-top: 50px;
   padding-bottom: 50px;
 }
