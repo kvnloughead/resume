@@ -1,3 +1,12 @@
+/*
+Potential Color Palette
+https://colorhunt.co/palette/163151
+#a35638,  hsl(17, 49%, 43%)
+#e08f62,  hsl(21, 67%, 63%)
+#d7c79e,  hsl(43, 42%, 73%)
+#9dab86,  hsl(83, 18%, 60%)
+*/
+
 body {
   background-color: #f2f2f2;
   font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
@@ -28,7 +37,7 @@ p {
 
 /* Links */
 a {
-  color: #1CBCAD;
+  color: #a0452c;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -69,8 +78,8 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background: hsl(17, 49%, 43%);
+  /*background: url(../images/header-bg.jpg) no-repeat center top;*/
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
@@ -91,13 +100,13 @@ a:after {
 
 .header h1 {
   font-size: 80px;
-  color: white;
+  color: hsl(43, 42%, 73%);
   background: rgba(0,0,0,0.2);
 }
 
 .header h3 {
   font-size: 20px;
-  color: white;
+  color: hsl(43, 42%, 90%);
 }
 
 .header h3 a {
@@ -106,7 +115,7 @@ a:after {
 
 /* About Wrap */
 .about {
-  background: #2c3e50;
+  background: hsl(83, 18%, 65%);
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -157,8 +166,9 @@ a:after {
   color: #2f2f2f;
 }
 
+/* Main text */
 .desc t {
-  color: #34495e;
+  color: #9dab86;
   font-weight: 700;
 }
 
