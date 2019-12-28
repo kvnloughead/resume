@@ -1,0 +1,194 @@
+<!-- Resume following tutorial at https://medium.com/@robbcobb/make-a-resume-website-from-scratch-991845147ec -->
+<!-- Version 2:  where in I try to modify it for portability to pdf via mkhtmltopdfo -->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Kevin Loughead's Resume Site</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <!-- OPTIONAL: description -->
+    <meta name="description" content="">
+    <!-- OPTIONAL: author -->
+    <meta name="author" content="Kevin Loughead">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Link the main.css stylesheet -->
+    <link href="css/main2.css" rel="stylesheet">
+    
+    <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700|Raleway:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+ </head>
+ <body>
+
+   <div class="header" id="headerwrap">
+     <div class="container">
+       <div class="row centered">
+         <div class="col-lg-12">
+           <h1>Kevin Loughead</h1>
+           <h3>Enthusiastic learner looking for his first job in tech <br><br>
+            <a href="mailto:kvnloughead@gmail.com">kvnloughead@gmail.com</a>
+           </h3>
+         </div><!--/.col-lg-12-->
+       </div><!--/.row-->
+     </div><!--/.container-->
+   </div><!--/.#headerwrap-->
+
+<!-- ABOUT SECTION -->
+   
+   <section id="about" name="about"></section>
+   <div class="about">
+     <div class="container">
+       <div class="row"> 
+         <div class="col-lg-2 col-lg-offset-1">
+           <h5>ABOUT</h5>
+         </div>
+       <div class="col-lg-6">
+  <p>After graduating with a bachelor's degree in mathematics and no idea what I wanted to do with it, I began learning Python and fell in love with the language and coding in general.  Currently I am trying to fill out my stack with HTML, CSS and Javascript.</p>
+  </div>
+         <div class="col-lg-3">
+         </div>   
+       </div><!--/.row-->
+     </div><!--/.container-->
+   </div><!--/ #intro-->  </div>
+   
+<!-- ============================================= -->
+
+<section id="resume" name="resume"></section>
+  <!-- EDUCATION SECTION -->
+  <div class="container desc">
+    <div class="row">
+
+        <div class="col-lg-2 col-lg-offset-1 left-col">
+          <h5>EDUCATION</h5>
+        </div>
+        <!-- EDIT: education line 1 -->
+        <div class="col-lg-6 center-col">
+          <p><t>B.S. in Mathematics</t><br/>
+            Indiana Univeristy
+          </p>
+        </div>
+        <div class="col-lg-3 right-col">
+          <p><sm>MAY, 2017 <br />
+          GPA 4.0</sm></p>
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+  </div><!--/.container -->
+  
+  <!-- WORK SECTION -->
+  <div class="container desc">
+    <div class="row">
+
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>WORK</h5>
+        </div>
+        <!-- EDIT: work line 1 -->
+        <div class="col-lg-6">
+          <p class="tight"><t>Front of the House Supervisor </t><br/>
+            Aladdin Food Management Services <br/>
+          </p>
+          <p><more>
+            Supervises food service and cleaning staff in a college dining facility.  Interviews, hires, schedules and trains our student workers.  I make the pizza, too. 
+          </more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>AUGUST, 2009 <br />
+          Lancaster, PA 17603</sm></p>
+        </div>
+        
+    </div><!--/.row -->
+    <br>
+    <hr>
+  </div><!--/.container -->
+
+
+  <!-- OTHER LEARNING SECTION -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>OTHER LEARNING</h5>
+        </div>
+
+        <!-- EDIT: awards line 1-->
+        <div class="col-lg-6">
+          <p><t>Fundamentals of Computing Specialization</t><br/>
+            Rice University | Coursera <br/>
+          </p>
+          <p><more>A multiple course introduction to programming and algorithmic thinking with Python as the language of choice.</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>Completed 2018</sm></p>
+        </div>
+  
+        <!-- EDIT: awards line 2-->
+        <div class="col-lg-6 col-lg-offset-3">
+          <p class="tight"><t>The Web Developer Boot Camp</t><br/>
+            Udemy | Colt Steele
+          </p>
+          <p><more>A full stack web development course, covering HTML, CSS, Bootstrap, Javascript, Node JS and JQuery.</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>Ongoinging 2019</sm></p>
+        </div>
+
+    </div><!--/.row -->
+    <br>
+  </div><!--/.container -->
+
+</body>
+
+
+<section id="contact" name="contact"></section>
+  <!--FOOTER DESCRIPTION -->
+  <div id="footwrap" class="footer">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>CONTACT</h5>
+        </div>
+        <!-- EDIT: email -->
+        <div class="col-lg-6">
+          <p><t>Email</t><br/>
+            <a href="mailto:kvnloughead@gmail.com" class="mail">kvnloughead@gmail.com</a> <br/>
+          </p>
+          <!-- EDIT: address -->
+<!--           <p><t>Address</t><br/>
+            123 Some St. <br/> -->
+            Pottstown, PA 19465 <br/>
+            United States of America<br/>
+          </p>
+          <!-- EDIT: phone number -->
+          <p><t>Phone</t><br/>
+            <a href="tel:4849486968" class="tel">(484) 948-5968</a> <br/>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>SOCIAL LINKS</sm></p>
+          <p>
+            <!-- EDIT: Social Links. Replace # with your URL for each -->
+            <!-- <a href="#"><i class="icon-dribbble"></i></a> -->
+            <!-- <a href="#"><i class="icon-twitter"></i></a> -->
+            <a href="https://www.facebook.com/kevin.loughead.1"><i class="icon-facebook"></i></a>
+            <!-- <a href="#"><i class="icon-linkedin"></i></a> -->
+            <a href="https://github.com/kvnloughead"><i class="icon-github"></i></a>
+          </p>
+        </div>
+      </div><!--/.row -->
+    </div><!--/.container -->
+  </div><!--/ #footer -->
+
+</html>
