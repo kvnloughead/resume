@@ -9,17 +9,43 @@ https://colorhunt.co/palette/163151
 #9dab86,  hsl(83, 18%, 60%)
 */
 
-.left-col {
-  width: 12%;
+/* .box {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+} */
+
+/* Table styling start*/
+.first-entry {
+  color: #9dab86;
+  font-weight: 700;
 }
 
-.center-col {
-  width: 60%;
+.first-col {
+  width: 25%;
 }
 
-.right-col {
-  width: 12%;
+.middle-col {
+  width: 50%;
+  text-align: center;
 }
+
+.last-col {
+  width: 25%;
+  text-align: right;
+}
+
+table {
+  /* margin-left: 7%; */
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  width: 100%;
+  border-spacing: 5em;
+}
+
+
 
 body {
   background-color: #f2f2f2;
@@ -83,7 +109,7 @@ a:after {
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
+  margin: 0;
   padding: 0;
 }
 
